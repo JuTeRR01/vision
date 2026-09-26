@@ -1,0 +1,65 @@
+[debug] [2026-04-21T19:27:31.070Z] ----------------------------------------------------------------------
+[debug] [2026-04-21T19:27:31.072Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2026-04-21T19:27:31.072Z] CLI Version:   15.15.0
+[debug] [2026-04-21T19:27:31.073Z] Platform:      win32
+[debug] [2026-04-21T19:27:31.073Z] Node Version:  v24.14.1
+[debug] [2026-04-21T19:27:31.073Z] Time:          Tue Apr 21 2026 15:27:31 GMT-0400 (hora de Bolivia)
+[debug] [2026-04-21T19:27:31.073Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-04-21T19:27:31.076Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] Already logged in as smailynrachell@gmail.com
+[debug] [2026-04-21T19:27:41.138Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:309:49)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-04-21T19:27:58.115Z] ----------------------------------------------------------------------
+[debug] [2026-04-21T19:27:58.118Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2026-04-21T19:27:58.118Z] CLI Version:   15.15.0
+[debug] [2026-04-21T19:27:58.119Z] Platform:      win32
+[debug] [2026-04-21T19:27:58.119Z] Node Version:  v24.14.1
+[debug] [2026-04-21T19:27:58.119Z] Time:          Tue Apr 21 2026 15:27:58 GMT-0400 (hora de Bolivia)
+[debug] [2026-04-21T19:27:58.119Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-04-21T19:27:58.122Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\USER\OneDrive\Desktop\Vision\visionseeway
+
+[debug] [2026-04-21T19:27:59.997Z] *** [apiv2] error from fetch(https://firebase-public.firebaseio.com/cli.json, {"headers":{},"method":"GET"}): FetchError: request to https://firebase-public.firebaseio.com/cli.json failed, reason: getaddrinfo ENOTFOUND firebase-public.firebaseio.com
+[warn] !  Unable to fetch the CLI MOTD and remote config. This is not a fatal error, but may indicate an issue with your network connection. 
+[debug] [2026-04-21T19:27:59.997Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2026-04-21T19:28:26.128Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-04-21T19:28:26.129Z] > authorizing via signed-in user (smailynrachell@gmail.com)
+[debug] [2026-04-21T19:28:26.130Z] Checked if tokens are valid: false, expires at: 1776353674882
+[debug] [2026-04-21T19:28:26.130Z] Checked if tokens are valid: false, expires at: 1776353674882
+[debug] [2026-04-21T19:28:26.131Z] > refreshing access token with scopes: []
+[debug] [2026-04-21T19:28:26.133Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-04-21T19:28:26.133Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-04-21T19:28:37.773Z] *** [apiv2] error from fetch(https://www.googleapis.com/oauth2/v3/token, {"headers":{},"method":"POST","body":{"_overheadLength":545,"_valueLength":212,"_valuesToMeasure":[],"writable":false,"readable":true,"dataSize":0,"maxDataSize":2097152,"pauseStreams":true,"_released":true,"_streams":[],"_currentStream":null,"_insideLoop":false,"_pendingNext":false,"_boundary":"--------------------------30d91bbc4d9edf832b085200","_events":{},"_eventsCount":1}}): FetchError: request to https://www.googleapis.com/oauth2/v3/token failed, reason: getaddrinfo ENOTFOUND www.googleapis.com
+[error] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2026-04-21T19:28:37.775Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2026-04-21T19:28:42.799Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:309:49)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7)
+[error] 
+[error] Error: An unexpected error has occurred.
